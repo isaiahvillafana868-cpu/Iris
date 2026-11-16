@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iris</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1f2328; --muted: #5b616b; --line: #e3e1db; --accent: #6b4fbb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #16171a; --fg: #e8e6e3; --muted: #a2a7ae; --line: #2c2e33; --accent: #b3a1ee; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 2.2rem; margin: 0 0 4px; }
+  .tag { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Iris</h1>
+  <p class="tag">A private personal assistant.</p>
+
+  <p>Iris is a personal assistant used by one person, its owner. It helps them keep track of their day: their schedule, their to-do list and a short morning and evening check-in.</p>
+
+  <h2>What Iris does with Google</h2>
+  <p>Iris asks Google for one permission only: to <strong>read</strong> its owner's Google Calendar. It uses that to list the day's events in the owner's check-ins. Iris cannot create, change or delete calendar events, and it has no access to email, files or contacts.</p>
+
+  <h2>Who can use it</h2>
+  <p>Iris is not a public service. It is not offered to anyone else and there is nothing to sign up for.</p>
+
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
